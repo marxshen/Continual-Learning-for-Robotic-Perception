@@ -1,0 +1,21 @@
+random_seed: 0
+net: "confs/sII/mid-caffeNet/inc_train_val.prototxt"
+test_iter: 450
+test_interval: 469
+
+# lr for fine-tuning should be lower than when starting from scratch
+base_lr: 0.1
+lr_policy: "poly"
+power: 1
+
+# stepsize should also be lower, as we're closer to being done
+display: 225
+max_iter: 1800
+momentum: 0.9
+weight_decay: 0.0001
+
+snapshot: 1800
+snapshot_prefix: "data/snapshots/train_batch_00"
+snapshot_format: HDF5
+solver_mode: GPU
+test_initialization: false

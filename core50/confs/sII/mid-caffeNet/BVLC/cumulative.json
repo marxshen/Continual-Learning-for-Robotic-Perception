@@ -1,0 +1,23 @@
+{
+  "name":"BVLC core50 incremental finetuning - sII",
+  "scenario": 2,
+  "img_dim": 128,
+  "data_path": "data/core50_128x128/",
+  "filelist_bp": "data/sII",
+  "conf_bp": "confs/sII/mid-caffeNet/",
+  "snapshots_bp": "data/snapshots/",
+  "starting_weights": "data/bvlc_reference_caffenet.caffemodel",
+  "batches_num": 9,
+  "num_runs": 1,
+  "conf_files": {
+        "solver_filename": "confs/sII/mid-caffeNet/inc_solver.prototxt",
+        "net_filename": "confs/sII/mid-caffeNet/inc_train_val.prototxt"
+  },
+  "first_batch_lr": 0.001,
+  "lrs": [0.001, 0.00005, 0.00001],
+  "num_inc_it": 1800,
+  "first_batch_it": 1800,
+  "test_minibatch_size": 100,
+  "strategy": "fromscratch",
+  "seed": 1
+}
