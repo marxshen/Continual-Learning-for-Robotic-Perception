@@ -1,4 +1,4 @@
-# Project-2-Continual-Learning-CL-for-Robotic-Perception
+# Continual Learning for Robotic Perception
 
 Project Option: CORe50
 
