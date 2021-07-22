@@ -1,7 +1,8 @@
 # Continual Learning for Robotic Perception
 
-The program replaces BVLC with ResNet-50 to perform continual learning on CORe50, a dataset and benchmark for continual learning (CL), object detection and segmentation. CL concerns new training patterns in later batches and tackling new classes w/o losing accuracy on previous ones.<br><br>
+The program replaces BVLC with ResNet-50 to perform continual learning on CORe50, a dataset and benchmark for continual learning (CL), object detection and segmentation. CL concerns new training patterns in later batches and tackling new classes w/o losing accuracy on previous ones.
 
+---
 Project Option: CORe50
 
 Environment: Colab Pro - Google Colab
