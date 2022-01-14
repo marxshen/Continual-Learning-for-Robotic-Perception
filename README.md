@@ -5,7 +5,7 @@ This program replaces BVLC CaffeNet with ResNet-50 to perform Continual Learning
 
 CL concerns new training patterns in later batches and tackling new classes without losing accuracy on previous ones.
 
-From the benchmarks for classification at object level (50 classes), the accuracies of the classification are increased by 25.11%.
+From the benchmarks for classification at object level (50 classes), the accuracies of the classification are increased up to 25.11%.
 
 ---
 Project Option: CORe50
