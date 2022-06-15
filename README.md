@@ -1,11 +1,14 @@
 # Continual Learning for Robotic Perception
 
 ---
-This program replaces BVLC CaffeNet with ResNet-50 to perform Continual Learning (CL) strategies on the CORe50 dataset.
+This program replaces BVLC CaffeNet with ResNet-50<br/>
+to perform Continual Learning (CL) strategies on the CORe50 dataset.
 
-CL concerns new training patterns in later batches and tackling new classes without losing accuracy on previous ones.
+CL concerns new training patterns in later batches and tackling new classes<br/>
+without losing accuracy on previous ones.
 
-From the benchmarks for classification at object level (50 classes), the accuracies of the classification are increased up to 25.11%.
+From the benchmarks for classification at object level (50 classes),<br/>
+the accuracies of the classification are increased up to 25.11%.
 
 ---
 Project Option: CORe50
